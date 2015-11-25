@@ -55,7 +55,7 @@ public class CCPGuideView: UIView{
         return self.contentSize?() ?? self.frame.size
     }()
     private lazy var cc_titles : Array<String> = {
-        return self.titles?() ?? ["第一页","第二页","第三页","第四页"]
+        return self.titles?() ?? Array()
     }()
     
     private lazy var cc_doneButton : UIButton = {
