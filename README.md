@@ -30,6 +30,14 @@
             return CGSizeMake(250, 250)
         }
         
+定制进入按钮，可默认
+
+	ccp.doneButton = {
+            let button : UIButton = UIButton(frame:CGRectMake(ccp.frame.size.width * 0.1, ccp.frame.size.height * 0.9, ccp.frame.size.width * 0.8, 50))
+            button.setImage(UIImage(named: "button_start", inBundle: NSBundle(forClass:CCPGuideView.self), compatibleWithTraitCollection: nil), forState:.Normal)
+            return button
+        }
+        
 展现引导页
 
         ccp.showGuideView()

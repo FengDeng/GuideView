@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         ccp.contentSize = {
             return CGSizeMake(250, 250)
         }
+        
+        ccp.doneButton = {
+            let button : UIButton = UIButton(frame:CGRectMake(ccp.frame.size.width * 0.1, ccp.frame.size.height * 0.9, ccp.frame.size.width * 0.8, 50))
+            button.setImage(UIImage(named: "button_start", inBundle: NSBundle(forClass:CCPGuideView.self), compatibleWithTraitCollection: nil), forState:.Normal)
+            return button
+        }
         ccp.showGuideView()
         
         
