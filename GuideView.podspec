@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "GuideView"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "引导页"
 s.description      = <<-DESC
 
