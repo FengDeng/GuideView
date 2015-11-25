@@ -1,7 +1,7 @@
 # GuideView
 一个简单地引导界面
 
-
+![](https://raw.githubusercontent.com/FengDeng/GuideView/master/debug.png)
 
 
 ##UsePage
