@@ -5,7 +5,7 @@
 
 
 ##UsePage
-
+###必须实现
 在你的第一个VC的ViewDidLoad里添加如下代码即可。不需要判断启动和版本。
 
 		let ccp = CCPGuideView(frame:UIScreen.mainScreen().bounds)
@@ -17,7 +17,12 @@
             return arr
         }
         
+展现引导页
+
+        ccp.showGuideView()
         
+
+###可选实现                
 每页引导页的标题
 
         ccp.titles = {
@@ -38,6 +43,3 @@
             return button
         }
         
-展现引导页
-
-        ccp.showGuideView()
